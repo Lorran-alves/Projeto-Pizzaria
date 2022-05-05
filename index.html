@@ -15,27 +15,23 @@
                     <nav > <!---inico nav-->
                         <ul>
                             <li>
-                                <a href="">Menu</a>
+                                <a href="">MENU</a>
                             </li>
                             
                             <li>
-                                <a href="">Cardapio</a>
+                                <a href="">MEUS PEDIDOS</a>
                             </li>
                             
                             <li>
-                                <a href="">Meus pedidos</a>
+                                <a href="">NOSSO ESPAÇO</a>
                             </li>
                             
                             <li>
-                                <a href="">Nosso espaço</a>
+                                <a href="">NOVIDADES</a>
                             </li>
                             
                             <li>
-                                <a href="">Novidades</a>
-                            </li>
-                            
-                            <li>
-                                <a href="">Fale conosco</a>
+                                <a href="">FALE CONOSCO</a>
                             </li>
                         </ul>
                     </nav><!---/fim nav-->
@@ -53,56 +49,57 @@
 
                       <h3>ENCOTRE A PIZZARIA</h3>
 
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.6947509754164!2d-40.83654578583335!3d-8.814720392602675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x774455dda02e091%3A0x47ce76b951b5fd72!2sCezar%20Pizzaria!5e0!3m2!1spt-BR!2sbr!4v1651770745821!5m2!1spt-BR!2sbr" width="700" height="350" style="border:0; padding: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.6947509754164!2d-40.83654578583335!3d-8.814720392602675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x774455dda02e091%3A0x47ce76b951b5fd72!2sCezar%20Pizzaria!5e0!3m2!1spt-BR!2sbr!4v1651770745821!5m2!1spt-BR!2sbr" width="720" height="350" style="border:0; margin-bottom: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                   </article>
 
                   <div id="tabela">
-                      <table>       
+                      <table>   
+                          <caption id="titulo-tabela">NOSSO CARDAPIO</caption>    
 
                         <tr>
-                            <th class="teste2">SABOR</th>
-                            <th class="teste2">CODIGO</th>
-                            <th class="teste2">TAMANHO G</th>
-                            <th class="teste2">TAMANHO M</th>
-                            <th class="teste2">TAMANHO P</th>
+                            <th class="foco-linha">SABOR</th>
+                            <th class="foco-linha">CODIGO</th>
+                            <th class="foco-linha">TAMANHO G</th>
+                            <th class="foco-linha">TAMANHO M</th>
+                            <th class="foco-linha">TAMANHO P</th>
                         </tr>
                         <tr>
-                            <td class="teste1">CALABRESA</td>
+                            <td class="foco-produto">CALABRESA</td>
                             <td>001</td>
                             <td>29,99</td>
                             <td>26,99</td>
                             <td>15,99</td>
                         </tr>
                         <tr>
-                            <td class="teste1">NORDESTINA</td>
+                            <td class="foco-produto">NORDESTINA</td>
                             <td>002</td>
                             <td>31,99</td>
                             <td>27,99</td>
                             <td>15,99</td>
                      </tr>
-                            <td class="teste1">FRANGO CATUPIRY</td>
+                            <td class="foco-produto">FRANGO CATUPIRY</td>
                             <td>003</td>
                             <td>25,99</td>
                             <td>22,99</td>
                             <td>14,99</td>
                         </tr>
                         <tr>
-                            <td class="teste1">MILHO</td>
+                            <td class="foco-produto">MILHO</td>
                             <td>004</td>
                             <td>23,99</td>
                             <td>19,99</td>
                             <td>13,99</td>
                         </tr>
                         <tr>
-                            <td class="teste1">PRESUNTO</td>
+                            <td class="foco-produto">PRESUNTO</td>
                             <td>005</td>
                             <td>27,99</td>
                             <td>24,99</td>
                             <td>15,99</td>
                         </tr>
                         <tr>
-                            <td class="teste1">PORTUGUESA</td>
+                            <td class="foco-produto">PORTUGUESA</td>
                             <td>006</td>
                             <td>32,99</td>
                             <td>28,99</td>
@@ -111,13 +108,12 @@
 
                       </table>
                   </div>
-               
 
                 </div>
 
                 <aside id="secundario">
-                    <article>
-                    <img src="img/pizza-amigos.jpg" alt="">
+                     <article>
+                        <img src="img/pizza-amigos.jpg" alt="">
                      </article>
 
                     <article id="origem-pizza">
@@ -137,26 +133,26 @@
                                     <label for="nome"><strong> Nome completo</strong></label>
                                     <input  class="questionario" type="text" id="nome" placeholder="digite o seu nome" required>
 
-                                    <label for="email"><strong>Email</strong></label>
+                                    <label class="email" for="email"><strong>Email</strong></label>
                                     <input  class="questionario" type="email" id="email" placeholder="ex:fulano@fulano.com"  required>
 
 
-                                 <div class="area-checkbox" >
+                                <div class="area-checkbox" >
 
-                                    <h4><strong>em qual cargo se identifica?</strong></h4>
+                                     <h4><strong>em qual cargo se identifica?</strong></h4>
 
-                                    <label class="input-check"><input type="checkbox">ZELADOR </label>
-                                    <label class="input-check"><input type="checkbox">PIZZAIOLO </label>
-                                    <label class="input-check"><input type="checkbox">ZELADOR</label>   
-                                    <label class="input-check"><input type="checkbox">FORNEIRO</label>
+                                     <label class="input-check"><input type="checkbox">ZELADOR </label>
+                                     <label class="input-check"><input type="checkbox">PIZZAIOLO </label>
+                                     <label class="input-check"><input type="checkbox">ZELADOR</label>   
+                                     <label class="input-check"><input type="checkbox">FORNEIRO</label>
                     
-                                    </div>
+                                </div>
                                 <input class="submit" type="submit" value="SOLICITAR">
                             </fieldset>
                         </form>
                     </section>
                 </aside>
-                <footer>&copy;Copyright 2022/Lorran Alves</footer>
+                <footer><h4 class="rodape">&copy;Copyright 2022/Lorran Alves</h4></footer>
             </div> <!---/fim conteudo-->
         </div><!---/fim contaiener-->
     </body>
